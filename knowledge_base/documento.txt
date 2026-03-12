@@ -1,0 +1,6 @@
+RAG (Retrieval Augmented Generation) es una técnica de inteligencia
+artificial que permite a los modelos consultar documentos antes de
+generar una respuesta.
+
+Prompt Engineering es el proceso de diseñar instrucciones claras
+para controlar el comportamiento de los modelos de lenguaje.

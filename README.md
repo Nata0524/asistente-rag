@@ -1,14 +1,30 @@
 # Asistente Experto basado en RAG
 
-Este proyecto desarrolla un asistente académico basado en la técnica
-RAG (Retrieval Augmented Generation).
+## Descripción
+Este proyecto implementa un asistente experto basado en RAG (Retrieval Augmented Generation) que permite responder preguntas usando una base de conocimiento específica.
 
-El sistema utiliza Prompt Engineering para estructurar las
-instrucciones del modelo.
+## Tecnologías utilizadas
+- Python
+- Gemini API
+- Prompt Engineering
 
-Características:
+## Características
+El sistema utiliza:
 
-- System Prompt
-- Few-Shot Prompting
-- Uso de delimitadores
-- Base de conocimiento en documentos
+- System Prompt para definir el comportamiento del asistente
+- Few-Shot Prompting para guiar el formato de las respuestas
+- Delimitadores con triple comillas para separar contexto e instrucciones
+
+## Ejecución
+
+1. Clonar el repositorio
+git clone https://github.com/Nata0524/asistente-rag
+
+2. Instalar dependencias
+pip install -r requirements.txt
+
+3. Ejecutar el asistente
+python main.py
+
+## Autora
+Natalia Chitiva
